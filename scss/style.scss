@@ -1,7 +1,21 @@
 html, body, h1, h2, h3, h4, h5, h6, p, div, ol, ul, li {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    /* color: white; */
-    /* background-color: black; */
+    font-family: monospace;
+    background-color: black;
+}
+#contentContainer {
+    color: white;
+    flex-flow: row;
+    width: 300px;
+    margin: 100px auto;
+    #guesses {
+        display: flex;
+        input {
+            width: 40px;
+            background-color: #333;
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
 }
